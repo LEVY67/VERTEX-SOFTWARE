@@ -1,65 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Currículo</title>
+    <title>Document</title>
+    <!-- Ligação com o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <Center>
-        <img src="foto.jpg" alt="Foto de José Levy Lima De Oliveira" style="width: 200px; height: 200px; border-radius: 50%;">
-<h1 style="text-align: center;">José Levy Lima De Oliveira</h1>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Nossos Contatos</h1>
+    </header>
 
-<p style="text-align: center;">Brasileiro, 16 anos, Solteiro, +55 85 99449-3022 </p>
+    <!-- Navegação Superior -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Pagina Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html">Nossos Produtos</a></li>
+            <li><a href="contate-nos.html">Contatos</a></li>
+        </ul>
+    </nav>
 
-<p style="text-align: center;">Email: limalevy339@gmail.com, Rua Belterra 291. Santo Amaro SP</p>
-    </Center>
-<br>
-<hr>
-<br>
-<p><strong>Objetivo:</strong>
-<blockquote> Engenheiro de Software</blockquote>
-<br>
-<hr>
-<br>
-<p><strong>Formação Acadêmica:</strong></p>
-<blockquote>
-    <ul>
-        <li>Formado em Engenharia da Computação pela Universidade Federal do Ceará (UFC) em 2022.</li>
-        <li>Formado em Engenharia de Software pela Universidade de São Paulo (USP) em 2024.</li>
-    </ul>
-</blockquote>
-<br>
-<hr>
-<br>
-<p><strong>Cursos e Treinamentos:</strong></p>
-<blockquote>
-    <ul>
-        <li>Curso de Python pela Universidade de São Paulo. 200 horas, <a href="https://www.UECE.br" target="_blank">UECE</a> em 2023.</li>
-        <li>Curso de Desenvolvimento Web pela Universidade Federal do Ceará. 50 horas, <a href="https://www.ufc.br" target="_blank">UFC</a> em 2024.</li>
-    </ul>
-</blockquote>
-<br>
-<hr>
-<br>
-<p><strong>Experiência Profissional:</strong></p>
-<blockquote>
-    <ul>
-        <li>Estágio em Desenvolvimento de Software na <a href="https://www.globant.com › pt-br" target="_blank">Globant</a> de Janeiro de 2023 a Dezembro de 2023.</li>
-        <li>Estágio em Desenvolvimento Web na <a href="https://talent.bairesdev.com › bairesdev-vagas-ptbr" target="_blank">BairesDev</a> de Janeiro de 2024 a Junho de 2024.</li>
-    </ul>
-</blockquote>
-<br>
-<hr>
-<br>
-<p><strong>Outras informações do candidato:</strong></p>
-<blockquote>
-    <ul>
-        <li>Idiomas: Português (nativo), Inglês (avançado).</li>
-        <li>Habilidades: Programação em Python, Java e JavaScript; Desenvolvimento Web; Banco de Dados.</li>
-        <li>Disponibilidade para viagens e mudança de cidade.</li>
-    </ul>
-</blockquote>
+    <!-- Container principal para alinhar Aside e Main lado a lado -->
+    <div class="container">
+        
+        <!-- Menu Lateral -->
+        <aside>
+            <h2>Menu Lateral</h2>
+            <ul>
+                <li><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Nossos Produtos</a></li>
+                <li><a href="contate-nos.html">Contatos</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main>
+            <section id="sobre">
+                <h2>Sobre a Vertex Software</h2>
+                <p>
+                    A Vertex Software é uma empresa de tecnologia dedicada ao desenvolvimento de soluções digitais inovadoras. Nosso objetivo é transformar ideias em ferramentas eficientes, oferecendo tecnologia de ponta e excelência para nossos clientes.
+                </p>
+                <p>
+                    Acreditamos que a inovação é o caminho para o futuro e trabalhamos para conectar pessoas, empresas e oportunidades por meio da tecnologia.
+                </p>
+            </section>
+
+            <section id="produtos">
+                <h2>Nossos Produtos</h2>
+
+                <div class="produto-item">
+                    <h3>Desenvolvimento de Sites</h3>
+                    <p>Criação de sites modernos, responsivos e personalizados para empresas e negócios.</p>
+                </div>
+
+                <div class="produto-item">
+                    <h3>Sistemas Empresariais</h3>
+                    <p>Desenvolvimento de sistemas para organizar processos, administrar informações e aumentar a produtividade.</p>
+                </div>
+
+                <div class="produto-item">
+                    <h3>Aplicações Digitais</h3>
+                    <p>Criação de aplicações que facilitam tarefas e proporcionam melhores experiências aos usuários.</p>
+                </div>
+            </section>
+
+            <section id="parceiros">
+                <h2>Nossos Parceiros</h2>
+                <p>
+                    A Vertex Software acredita que grandes resultados são construídos por meio de parcerias. Trabalhamos em conjunto com profissionais e empresas que compartilham nossos valores de inovação e qualidade.
+                </p>
+            </section>
+        </main>
+
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer id="contatos">
+        <p>© 2026 Vertex Software - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
